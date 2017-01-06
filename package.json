@@ -1,0 +1,26 @@
+{
+  "name": "gulp-ttf2svg",
+  "version": "1.0.0",
+  "description": "Convert font from TTF format to SVG",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/test.js"
+  },
+  "keywords": [
+    "gulpplugin",
+    "ttf",
+    "svg",
+    "font",
+    "converter"
+  ],
+  "author": "hetsketch",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3",
+    "ttf2svg": "0.0.7"
+  }
+}
