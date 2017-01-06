@@ -4,7 +4,7 @@ const ttf2svg = require('ttf2svg');
 const gutil = require('gulp-util');
 const through2 = require('through2').obj;
 
-const PLUGIN_NAME = 'gulp-ttf2svg';
+const PLUGIN_NAME = 'gulp-ttf-svg';
 
 function convertToSvg(options) {
   return through2(function (file, enc, cb) {
