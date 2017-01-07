@@ -10,8 +10,6 @@ it('default test', done => {
 
   stream.on('data', file => {
     const fixtures = fs.readFileSync('./test/fixtures/Aller_Lt.svg');
-    console.log(file.contents.toString());
-    console.log(fixtures.toString());
     assert.equal(file.contents.toString(), fixtures.toString());
     done();
   });
