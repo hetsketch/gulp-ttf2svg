@@ -1,6 +1,6 @@
 {
   "name": "gulp-ttf-svg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert font from TTF format to SVG",
   "main": "index.js",
   "homepage": "https://github.com/hetsketch/gulp-ttf2svg",
