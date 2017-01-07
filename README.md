@@ -13,4 +13,5 @@ gulp.src('path/to/ttfs')
   .pipe(ttf2svg())
   .pipe(gulp.dest('path/to/save');
 ```
-
+##Stats
+[![NPM](https://nodei.co/npm/gulp-ttf-svg.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gulp-ttf-svg)
