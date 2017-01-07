@@ -1,6 +1,8 @@
 # gulp-ttf2svg
 Gulp plugin converts font from TTF format to SVG
 
+[![Build Status](https://travis-ci.org/hetsketch/gulp-ttf2svg.svg?branch=master)](https://travis-ci.org/hetsketch/gulp-ttf2svg)
+
 ##Usage
 ```shell
 npm install --save-dev gulp-ttf-svg
